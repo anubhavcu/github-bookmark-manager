@@ -1,8 +1,7 @@
 import React, { Component } from "react";
-import Title from "./components/Title";
-import CurrentBookmarks from "./components/CurrentBookmarks";
+import Title from "../Title";
 
-export default class App extends Component {
+export default class Search extends Component {
   constructor(props) {
     super(props);
 
@@ -13,7 +12,9 @@ export default class App extends Component {
     return (
       <div>
         <Title />
-        <CurrentBookmarks />
+        <div className="container">
+          <h1>Search page</h1>
+        </div>
       </div>
     );
   }
