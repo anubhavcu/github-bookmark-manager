@@ -1,6 +1,5 @@
 import React, { Component } from "react";
-import Title from "./components/Title";
-import CurrentBookmarks from "./components/CurrentBookmarks";
+import Home from "./components/pages/Home";
 
 export default class App extends Component {
   constructor(props) {
@@ -12,8 +11,7 @@ export default class App extends Component {
   render() {
     return (
       <div>
-        <Title />
-        <CurrentBookmarks />
+        <Home />
       </div>
     );
   }
